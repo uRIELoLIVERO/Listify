@@ -1,0 +1,43 @@
+.container-create{
+    flex-direction: column;
+}
+
+.container-create-inputs{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+.container-create-inputs input{
+    margin-top: 20px;
+    padding: 12px 8px;
+    background-color: #D9D9D9;
+    opacity: 0.7;
+    border: none;
+    border-radius: 20px;
+    width: 70%;
+    font-family: "Koh Santepheap", serif;
+}
+
+.container-create-inputs button{
+    width: 20%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #866efb;
+    font-family: "Koh Santepheap", serif;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+    pointer-events: none;
+  }

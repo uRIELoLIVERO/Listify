@@ -1,0 +1,62 @@
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: "Koh Santepheap", serif;
+  color: white;
+}
+
+.main__container {
+  background-image: url('../img/pexels-billel-moula-542517.jpg');
+  display: grid;
+  grid-template: 100vh / 50vw 50vw;
+}
+
+.main__container-first {
+  backdrop-filter: blur(5px) saturate(100%);
+  -webkit-backdrop-filter: blur(5px) saturate(100%);
+  background-color: rgba(17, 25, 40, 0.37);
+  border-right: 1px solid rgba(255, 255, 255, 0.125);
+  align-items: center;
+}
+
+.main__container-first, .main__container-second{
+  height: 100%;
+  width: 49vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1{
+  margin-bottom: 2.6rem;
+  font-size: 6rem;
+  max-width: 400px;
+  font-weight: 700px;
+}
+
+h2{
+  margin-left: 40px;
+  font-size: 4rem;
+  margin: 0 40px;
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media screen and (max-width: 680px) {
+  .main__container {
+    background-repeat: repeat;
+    top: 0;
+    left: 0;
+    height: 200vh;
+    grid-template: 1fr 1fr / 2fr;
+  }
+  .main__container-first, .main__container-second{
+    width: 100vw;
+  }
+}

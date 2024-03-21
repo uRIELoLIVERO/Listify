@@ -1,0 +1,7 @@
+.container-error {
+    color: white;
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    margin: 60px auto;
+}

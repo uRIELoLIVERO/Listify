@@ -1,0 +1,24 @@
+.container-filter div{
+    display: flex;
+    justify-content: center;
+}
+.container-filter div *{
+    margin-top: 20px;
+    padding: 12px 8px;
+    background-color: #D9D9D9;
+    opacity: 0.7;
+    border: none;
+}
+.container-filter div ion-icon{
+    color: black;
+    font-size: 2rem;
+    border-radius: 12px 0 0 12px;
+}
+.container-filter div input{
+    width: 60%;
+    border-radius: 0 12px 12px 0;
+    font-family: "Koh Santepheap", serif;
+}
+.subtitle-h2-filter{
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+h3 span{
+    color: #866efb;
+    font-size: 2.5rem;
+}
+.TodoSubtitle{
+    margin: 20px 0;
+}
+.subtitle-sticky{
+    position: sticky;
+}
+.container-withoutTask{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 320px;
+}
+
+.container-withoutTask ion-icon{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 24px;
+}
+
