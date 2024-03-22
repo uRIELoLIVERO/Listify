@@ -21,6 +21,10 @@ Este proyecto se construyó utilizando:
 * HTML y CSS: Para la estructura y diseño de la aplicación.
 * JavaScript: Para la lógica de la aplicación.
 
+### Previsualizacion 🎥
+[![Alt Text](https://img.youtube.com/vi/P6jusZp8R0E/0.jpg)](https://www.youtube.com/watch?v=P6jusZp8R0E)
+
+
 ### Créditos 🙌
 
 Profesor: Juan David Castro
